@@ -8,7 +8,6 @@ def run_command(cmd, logger: $stdout)
   command = Mixlib::ShellOut.new(cmd).run_command
   puts(command.stderr)
   if command.error?
-    puts(command.stderr)
     logger.error(command.stderr)
     raise StandardError, command.stderr
   else

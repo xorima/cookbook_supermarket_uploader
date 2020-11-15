@@ -19,10 +19,12 @@ This app uses the following environments variables:
 
 To configure the webhook you will want to do the following:
 
+```bash
 URL: <https://example.com/handler>
 Events:
   Let me select:
     Deployments (Only)
+```
 
 If you set a HMAC secret ensure that `SECRET_TOKEN` is set to the same secret value
 
