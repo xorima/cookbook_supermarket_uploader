@@ -10,4 +10,4 @@ RUN bundle install --without test
 COPY ./lib .
 ENV APP_ENV=production
 
-CMD ["ruby", "./cookbookreleasecreator.rb", "-o", "0.0.0.0"]
+CMD ["ruby", "./cookbooksupermarketuploader.rb", "-o", "0.0.0.0"]
