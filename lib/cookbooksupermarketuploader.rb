@@ -53,7 +53,8 @@ post '/handler' do
       supermarket.upload_cookbook
       vcs.deployment_status(status: :success, description: 'Released to supermarket!')
     rescue StandardError => e
-      puts(e)
+      puts(e.message)
+      puts(e.backtrace.join("\n"))
       return failure_with_reason(vcs, 'Unable to release to Supermarket, contact the board')
     end
     remove_directory(name: dir)
