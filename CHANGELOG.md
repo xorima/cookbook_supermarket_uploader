@@ -1,10 +1,10 @@
 # CHANGELOG
 
-This file is used to list changes made in releasecreator.
+This file is used to list changes made in Cookbook Supermarket Uploader.
 
 ## Unreleased
 
 - Initial Creation
-  - Update metadata
-  - Update changelog
-  - Create release
+  - Upload to the supermarket
+  - Check for tags
+  - Checkout tags only
