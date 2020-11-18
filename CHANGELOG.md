@@ -2,6 +2,8 @@
 
 This file is used to list changes made in Cookbook Supermarket Uploader.
 
+## Unreleased
+
 ## 1.0.3 - *2020-11-18*
 
 - Fixed bug where tags were not found
