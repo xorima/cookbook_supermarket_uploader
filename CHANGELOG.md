@@ -4,6 +4,8 @@ This file is used to list changes made in Cookbook Supermarket Uploader.
 
 ## Unreleased
 
+- Fixed bug where tags were not found
+
 ## 1.0.2 - *2020-11-18*
 
 - Fixed bug with dockerhub push due to set-env deprecation

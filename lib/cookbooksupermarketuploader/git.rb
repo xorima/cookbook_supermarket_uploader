@@ -26,7 +26,7 @@ module CookbookSupermarketUploader
     end
 
     def checkout_tag(path:, tag:)
-      run_command("cd #{path}/#{@repository_name}; git checkout -q tags/#{tag}")
+      run_command("cd #{path}/#{@repository_name}; git fetch --tags; git checkout -q tags/#{tag}")
     end
   end
 end
